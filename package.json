@@ -1,6 +1,6 @@
 {
   "name": "use-has-mounted",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React hook for knowing if a component has mounted yet",
   "author": "Blake Knight <oss.ideas@gmail.com> (https://blakek.me/)",
   "license": "MIT",
