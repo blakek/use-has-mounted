@@ -6,7 +6,11 @@ import { useEffect, useLayoutEffect, useState } from 'react';
 function useHasMounted(beforePaint = false) {
   const [hasMounted, setHasMounted] = useState(false);
   const useEffectFn = beforePaint ? useLayoutEffect : useEffect;
-  useEffectFn(() => setHasMounted(true), [setHasMounted]);
+
+  useEffectFn(() => {
+    setHasMounted(true);
+  }, [setHasMounted]);
+
   return hasMounted;
 }
 
