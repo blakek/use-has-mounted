@@ -4,7 +4,7 @@
 > otherwise need `componentDidMount` and state.
 
 [![Build status](https://travis-ci.com/blakek/use-has-mounted.svg?branch=master)](https://travis-ci.com/blakek/use-has-mounted)
-[![NPM](https://img.shields.io/npm/v/use-has-mounted.svg)](https://www.npmjs.com/package/use-has-mounted)
+[![NPM](https://img.shields.io/npm/v/use-has-mounted.svg)](https://www.npmjs.com/package/use-has-mounted) [![Greenkeeper badge](https://badges.greenkeeper.io/blakek/use-has-mounted.svg)](https://greenkeeper.io/)
 
 Use to know if a component has mounted.
 
