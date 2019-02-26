@@ -9,11 +9,12 @@
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "files": [
-    "dist/*"
+    "dist/**"
   ],
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint ./*.js src/**/*.js",
+    "prepublish": "run-s build",
     "start": "rollup -c -w",
     "test": "jest"
   },
@@ -35,6 +36,7 @@
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
     "jest": "^24.1.0",
+    "npm-run-all": "^4.1.5",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-testing-library": "^6.0.0",
