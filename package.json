@@ -1,0 +1,48 @@
+{
+  "name": "use-has-mounted",
+  "version": "1.0.0",
+  "description": "React hook for knowing if a component has mounted yet",
+  "author": "Blake Knight <oss.ideas@gmail.com> (https://blakek.me/)",
+  "license": "MIT",
+  "repository": "https://github.com/blakek/use-has-mounted",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint ./*.js src/**/*.js",
+    "start": "rollup -c -w",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0-alpha.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-gsandf-react": "^1.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^24.1.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-testing-library": "^6.0.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-url": "^2.1.0"
+  }
+}
